@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class UniversityOfTesting {
-    public static WebDriver driver=null;
+    public static WebDriver driver=null; // webdriver initialization
 
     @Test
     public void setUp(){
