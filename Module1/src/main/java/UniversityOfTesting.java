@@ -7,7 +7,7 @@ public class UniversityOfTesting {
     public static WebDriver driver=null; // webdriver initialization set up
 
     @Test
-    public void setUp(){
+    public void setUpMethod(){
         System.getProperty("webdriver.chromedriver","../src/driver/chromedriver");
         driver.get("http://webdriveruniversity.com/");
 
